@@ -1,0 +1,76 @@
+{
+  "name": "gthimmes-skills",
+  "owner": {
+    "name": "gthimmes"
+  },
+  "metadata": {
+    "description": "Engineering leadership skills for Claude Code — tech debt analysis, security remediation, legacy modernization, and database documentation",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tech-debt-analyzer",
+      "source": {
+        "source": "github",
+        "repo": "gthimmes/claude-tech-debt-analyzer"
+      },
+      "description": "Analyzes codebases for technical debt and translates findings into business impact with ROI calculations",
+      "version": "1.0.0",
+      "author": {
+        "name": "gthimmes"
+      },
+      "homepage": "https://github.com/gthimmes/claude-tech-debt-analyzer",
+      "repository": "https://github.com/gthimmes/claude-tech-debt-analyzer",
+      "license": "MIT",
+      "keywords": ["technical-debt", "code-analysis", "roi", "business-impact", "code-quality", "engineering-leadership"]
+    },
+    {
+      "name": "jvm-spring-remediator",
+      "source": {
+        "source": "github",
+        "repo": "gthimmes/claude-jvm-spring-remediator"
+      },
+      "description": "Analyzes CVE vulnerabilities in Java/Kotlin Spring Boot applications, assesses actual exposure, and implements minimal-impact remediation",
+      "version": "1.0.0",
+      "author": {
+        "name": "gthimmes"
+      },
+      "homepage": "https://github.com/gthimmes/claude-jvm-spring-remediator",
+      "repository": "https://github.com/gthimmes/claude-jvm-spring-remediator",
+      "license": "MIT",
+      "keywords": ["cve", "security", "vulnerability", "remediation", "spring-boot", "java", "kotlin", "jvm"]
+    },
+    {
+      "name": "data-dictionary-generator",
+      "source": {
+        "source": "github",
+        "repo": "gthimmes/claude-data-dictionary-generator"
+      },
+      "description": "Generates comprehensive data dictionaries by analyzing database schemas, migration files, backend/frontend code, and documentation",
+      "version": "1.0.0",
+      "author": {
+        "name": "gthimmes"
+      },
+      "homepage": "https://github.com/gthimmes/claude-data-dictionary-generator",
+      "repository": "https://github.com/gthimmes/claude-data-dictionary-generator",
+      "license": "MIT",
+      "keywords": ["data-dictionary", "database", "documentation", "schema", "postgresql", "mysql", "kotlin", "typescript"]
+    },
+    {
+      "name": "legacy-analyzer",
+      "source": {
+        "source": "github",
+        "repo": "gthimmes/claude-legacy-analyzer"
+      },
+      "description": "AI-powered legacy code analysis and modernization for any programming language",
+      "version": "1.0.0",
+      "author": {
+        "name": "gthimmes"
+      },
+      "homepage": "https://github.com/gthimmes/claude-legacy-analyzer",
+      "repository": "https://github.com/gthimmes/claude-legacy-analyzer",
+      "license": "MIT",
+      "keywords": ["legacy-code", "modernization", "refactoring", "code-analysis", "technical-debt"]
+    }
+  ]
+}
