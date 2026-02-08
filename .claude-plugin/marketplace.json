@@ -71,6 +71,22 @@
       "repository": "https://github.com/gthimmes/claude-legacy-analyzer",
       "license": "MIT",
       "keywords": ["legacy-code", "modernization", "refactoring", "code-analysis", "technical-debt"]
+    },
+    {
+      "name": "tdd",
+      "source": {
+        "source": "github",
+        "repo": "gthimmes/claude-tdd-skill"
+      },
+      "description": "Enforce strict Test-Driven Development workflow with autonomous iteration until all tests pass",
+      "version": "1.0.0",
+      "author": {
+        "name": "gthimmes"
+      },
+      "homepage": "https://github.com/gthimmes/claude-tdd-skill",
+      "repository": "https://github.com/gthimmes/claude-tdd-skill",
+      "license": "MIT",
+      "keywords": ["tdd", "test-driven-development", "testing", "workflow", "dotnet", "csharp", "unit-testing", "integration-testing"]
     }
   ]
 }

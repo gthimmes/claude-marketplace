@@ -17,6 +17,7 @@ Then install any skill:
 /plugin install jvm-spring-remediator
 /plugin install data-dictionary-generator
 /plugin install legacy-analyzer
+/plugin install tdd
 ```
 
 ---
@@ -101,6 +102,30 @@ Claude: This class has 3 responsibilities that should be separated:
 ```
 
 [View repo →](https://github.com/gthimmes/claude-legacy-analyzer)
+
+---
+
+### 🧪 TDD Workflow Skill
+
+Enforce strict Test-Driven Development with autonomous iteration until all tests pass.
+
+**Use when:** You want to implement features following TDD principles with comprehensive test coverage.
+
+```
+User: /tdd implement user authentication with JWT
+
+Claude: [Spawns sub-agent to write tests first]
+
+        🔄 TDD Iteration 1/5: Running tests...
+        Tests: 15 failing → Implementing UserService
+
+        🔄 TDD Iteration 2/5: Running tests...
+        Tests: 3 failing → Adding JWT token generation
+
+        ✅ TDD COMPLETE - All 15 tests passing
+```
+
+[View repo →](https://github.com/gthimmes/claude-tdd-skill)
 
 ---
 
